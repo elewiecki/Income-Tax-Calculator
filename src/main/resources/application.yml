@@ -1,0 +1,7 @@
+spring:
+  data:
+    cassandra:
+      port: 9042
+      contact-points: incometaxes
+      keyspace-name: incomekeyspace
+      entity-base-package: com.example.cassandraTaxDemo.domain
